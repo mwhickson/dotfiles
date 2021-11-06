@@ -1,0 +1,181 @@
+#
+# Matt's nano config
+#
+# Significant hat tip to Ariadne Conill (https://ariadne.space/)
+# for reinvigorating my push into nano customization via the blog post
+# https://ariadne.space/2021/08/13/gnu-nano-is-my-editor-of-choice/
+#
+# If you're using a Debian branch and want a more current version of nano (5.x instead of 4.x)
+# then visit https://www.nano-editor.org/ and follow the instructions on building...
+#
+# Building is a reasonably straightforward process:
+# - uninstall the distro version
+# - install dependencies
+# - git clone
+# - autogen your build files with the script provided (autogen.sh)
+# - configure
+# - make
+# - make install (with sudo)
+# - restart your shell
+#
+# For additional config support, see (or check out the man page):
+# https://www.nano-editor.org/dist/latest/nanorc.5.html
+
+#
+# set up some nano behaviours
+#
+
+set atblanks
+set autoindent
+set indicator
+set linenumbers
+set minibar
+set multibuffer
+set nohelp
+set numbercolor italic,normal,normal
+set positionlog
+set smarthome
+set tabsize 4
+set titlecolor normal,normal
+set trimblanks
+set zap
+
+#
+# add some syntax highlighting courtesy of https://github.com/scopatz/nanorc
+# NOTE: currently using the nanorc fix from: https://github.com/scopatz/nanorc/issues/375
+#
+
+include "~/.nano/nanorc.nanorc"
+
+include "~/.nano/cmake.nanorc"
+include "~/.nano/c.nanorc"
+include "~/.nano/conf.nanorc"
+include "~/.nano/csharp.nanorc"
+include "~/.nano/css.nanorc"
+include "~/.nano/csv.nanorc"
+include "~/.nano/Dockerfile.nanorc"
+include "~/.nano/dotenv.nanorc"
+include "~/.nano/etc-hosts.nanorc"
+include "~/.nano/fsharp.nanorc"
+include "~/.nano/gitcommit.nanorc"
+include "~/.nano/git.nanorc"
+include "~/.nano/go.nanorc"
+include "~/.nano/html.nanorc"
+include "~/.nano/ini.nanorc"
+include "~/.nano/inputrc.nanorc"
+include "~/.nano/java.nanorc"
+include "~/.nano/javascript.nanorc"
+include "~/.nano/js.nanorc"
+include "~/.nano/json.nanorc"
+include "~/.nano/makefile.nanorc"
+include "~/.nano/man.nanorc"
+include "~/.nano/markdown.nanorc"
+include "~/.nano/nginx.nanorc"
+include "~/.nano/patch.nanorc"
+include "~/.nano/pkgbuild.nanorc"
+include "~/.nano/pkg-config.nanorc"
+include "~/.nano/properties.nanorc"
+include "~/.nano/puppet.nanorc"
+include "~/.nano/python.nanorc"
+include "~/.nano/reST.nanorc"
+include "~/.nano/ruby.nanorc"
+include "~/.nano/sh.nanorc"
+include "~/.nano/sql.nanorc"
+include "~/.nano/systemd.nanorc"
+include "~/.nano/toml.nanorc"
+include "~/.nano/xml.nanorc"
+include "~/.nano/yaml.nanorc"
+
+#
+# now for keybindings
+#
+# I haven't used nano (or rather pico) in my day to day in more than 20 years,
+# so... let's see if we can get some more modern keybindings in place...
+#
+# NOTE: this is where I usually screw things up... so... fingers crossed
+#
+
+unbind F1 all
+bind F1 help all
+
+unbind ^\ all
+bind ^\ cancel all
+
+unbind ^Q all
+bind ^Q exit all
+
+unbind ^S all
+bind ^S savefile all
+
+unbind ^O all
+bind ^O insert all
+
+unbind ^A all
+bind ^A writeout all
+
+unbind ^F all
+bind ^F whereis all
+
+#unbind Sh-F3 all
+#bind Sh-F3 findprevious all
+
+unbind F3 all
+bind F3 findnext all
+
+unbind ^H all
+bind ^H replace all
+
+unbind ^X all
+bind ^X cut all
+
+unbind ^C all
+bind ^C copy all
+
+unbind ^V all
+bind ^V paste all
+
+unbind ^K all
+bind ^K zap all
+
+unbind M-X all
+bind M-X execute all
+
+# speller
+
+unbind M-A all
+bind M-A formatter all
+
+# linter
+
+unbind ^/ all
+bind ^/ comment all
+
+unbind ^G all
+bind ^G gotoline all
+
+unbind ^] all
+bind ^] findbracket all
+
+unbind ^B all
+bind ^B anchor all
+
+unbind M-B all
+bind M-B nextanchor all
+
+unbind ^P all
+bind ^P prevbuf all
+
+unbind ^N all
+bind ^N nextbuf all
+
+unbind F8 all
+bind F8 recordmacro all
+
+unbind F9 all
+bind F9 runmacro all
+
+unbind ^Z all
+bind ^Z undo all
+
+unbind ^Y all
+bind ^Y redo all
