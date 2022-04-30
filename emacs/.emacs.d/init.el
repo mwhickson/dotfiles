@@ -11,10 +11,10 @@
 
 (defun disable-tabs () (setq indent-tabs-mode nil))
 (defun enable-tabs ()
-  (local-set-key (kbd "TAB") 'tab-to-tab-stop)
-  (setq indent-tabs-mode t)
-  (setq 'tab-always-indent 'complete)
-  (setq tab-width custom-tab-width))
+    (local-set-key (kbd "TAB") 'tab-to-tab-stop)
+	(setq indent-tabs-mode t)
+	(setq tab-always-indent 'complete)
+	(setq tab-width custom-tab-width))
 
 (add-hook 'prog-mode-hook 'enable-tabs)
 (add-hook 'lisp-mode-hook 'disable-tabs)
