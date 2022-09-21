@@ -18,8 +18,8 @@ set tabstop=4
 set softtabstop=4
 set noexpandtab
 set shiftwidth=0
-set softtabstop=-1
 set smarttab
+set autoindent
 
 "
 " keybindings
@@ -27,14 +27,6 @@ set smarttab
 
 set backspace=eol,start,indent
 set whichwrap+=<,>,h,l
-
-inoremap jj <ESC>
-inoremap <ESC> <NOP>
-
-vnoremap jj <ESC>
-vnoremap <ESC> <NOP>
-
-cnoremap jj <ESC>
 
 "
 " backup
@@ -50,6 +42,8 @@ set noswapfile
 
 set nocompatible
 
+syntax on
+
 filetype plugin on
 filetype indent on
 
@@ -58,7 +52,11 @@ set wildmenu
 
 set lazyredraw " performance
 
-set showmatch " bracket matching
+set ignorecase
+set incsearch
 
 set noerrorbells
+set novisualbell
+
+colorscheme slate
 
