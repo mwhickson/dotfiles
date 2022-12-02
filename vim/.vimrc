@@ -3,6 +3,20 @@
 "
 
 "
+" plugins
+"
+" - https://github.com/tpope/vim-fugitive
+" - https://github.com/junegunn/gv.vim
+" - https://github.com/airblade/vim-gitgutter
+"
+" - https://github.com/mg979/vim-visual-multi/
+"
+" - https://github.com/mileszs/ack.vim + ripgrep
+"
+" - https://github.com/vim-airline/vim-airline
+"
+
+"
 " UTF-8
 "
 
@@ -57,6 +71,10 @@ set incsearch
 
 set noerrorbells
 set novisualbell
+
+let g:ackprg='c:\\ripgrep\\rg.exe --vimgrep --smart-case'
+let g:ack_autoclose=1
+let g:ack_use_cword_for_empty_search=1
 
 colorscheme slate
 
