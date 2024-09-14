@@ -68,9 +68,13 @@ set incsearch
 set noerrorbells
 set novisualbell
 
-let g:ackprg='c:\\ripgrep\\rg.exe --vimgrep --smart-case'
+let g:ackprg='rg.exe --vimgrep --smart-case'
 let g:ack_autoclose=1
 let g:ack_use_cword_for_empty_search=1
+
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> pumvisible() ? asyncomplete#close_popup() : "\<cr>"
 
 let g:OmniSharp_server_use_net6=1
 
