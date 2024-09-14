@@ -8,6 +8,8 @@
 " https://github.com/mileszs/ack.vim
 " https://github.com/dense-analysis/ale
 " https://github.com/prabirshrestha/asyncomplete.vim
+" https://github.com/ionide/FsAutoComplete
+" https://github.com/ionide/Ionide-vim
 " https://github.com/OmniSharp/Omnisharp-vim
 " https://github.com/liuchengxu/vim-clap
 "
@@ -78,5 +80,6 @@ inoremap <expr> <cr> pumvisible() ? asyncomplete#close_popup() : "\<cr>"
 
 let g:OmniSharp_server_use_net6=1
 
-colorscheme slate
+"colorscheme slate
+colorscheme habamax
 
