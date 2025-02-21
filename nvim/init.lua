@@ -34,6 +34,16 @@ vim.o.errorbells = false
 vim.o.hlsearch = true
 vim.o.lazyredraw = true
 vim.o.wildmenu = true
+vim.g.have_nerd_font = false
+
+-- language servers
+
+require'lspconfig'.gopls.setup({
+	on_attach = on_attach,
+	capabilities = capabilities,
+	cmd = {"gopls"},
+	filetypes = { "go", "gomod", "gowork", "gotmpl" },
+})
 
 -- additional
 
