@@ -1,4 +1,3 @@
---
 -- init.lua
 --
 
@@ -37,6 +36,29 @@ vim.o.wildmenu = true
 vim.g.have_nerd_font = false
 
 -- language servers
+-- git clone https://github.com/neovim/nvim-lspconfig ~/.config/nvim/pack/nvim/start/nvim-lspconfig
+
+--require'lspconfig'.clangd.setup({
+--	on_attach = on_attach,
+--	capabilities = {
+--	  offsetEncoding = { "utf-8", "utf-16" },
+--	  textDocument = {
+--		completion = {
+--		  editsNearCursor = true
+--		}
+--	  }
+--	},
+--	cmd = {"clangd"},
+--	filetypes = { "c", "cpp" },
+--})
+
+require'lspconfig'.csharp_ls.setup({
+	on_attach = on_attach,
+	capabilities = capabilities,
+	cmd = {"csharp-ls"},
+	filetypes = { "cs" },
+	init_options = { AutomaticWorkspaceInit = true }
+})
 
 require'lspconfig'.gopls.setup({
 	on_attach = on_attach,
@@ -53,5 +75,6 @@ vim.cmd([[
 set notimeout
 filetype indent on
 filetype plugin on
+colorscheme blue
 ]])
 
