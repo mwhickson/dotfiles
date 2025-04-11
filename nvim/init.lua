@@ -67,6 +67,23 @@ require'lspconfig'.gopls.setup({
 	filetypes = { "go", "gomod", "gowork", "gotmpl" },
 })
 
+require'lspconfig'.pylsp.setup{
+	on_attach = on_attach,
+	capabilities = capabilities,
+	--settings = {
+	--	pylsp = {
+	--		plugins = {
+	--			pycodestyle = {
+	--				ignore = {'W391'},
+	--				maxLineLength = 100
+	--			}
+	--		}
+	--	}
+	--},
+	cmd = {"pylsp"},
+	filetypes = { "python" },
+}
+
 -- additional
 
 vim.o.compatible = false
