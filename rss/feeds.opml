@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<opml version="1.0">
+    <head>
+        <title>Matthew subscriptions in feedly Cloud</title>
+    </head>
+    <body>
+        <outline text="All" title="All">
+            <outline type="rss" text="Community Press" title="Community Press" xmlUrl="https://www.communitypress.ca/feed" htmlUrl="https://www.communitypress.ca"/>
+            <outline type="rss" text="OMG! Ubuntu!" title="OMG! Ubuntu!" xmlUrl="http://feeds.feedburner.com/d0od" htmlUrl="https://www.omgubuntu.co.uk/"/>
+            <outline type="rss" text="Quinte News" title="Quinte News" xmlUrl="http://www.quintenews.com/feed/" htmlUrl="https://www.quintenews.com"/>
+            <outline type="rss" text="Blog – Hackaday" title="Blog – Hackaday" xmlUrl="https://hackaday.com/blog/feed/" htmlUrl="https://hackaday.com"/>
+            <outline type="rss" text="Cracked: All Posts" title="Cracked: All Posts" xmlUrl="https://www.cracked.com/crackedrss/allposts.xml" htmlUrl="https://www.cracked.com"/>
+            <outline type="rss" text="Polygon" title="Polygon" xmlUrl="http://www.polygon.com/rss/index.xml" htmlUrl="https://www.polygon.com"/>
+            <outline type="rss" text="The Register - Software" title="The Register - Software" xmlUrl="https://www.theregister.com/software/headlines.atom" htmlUrl="https://www.theregister.com/software/"/>
+            <outline type="rss" text="CTV News - Toronto" title="CTV News - Toronto" xmlUrl="http://toronto.ctvnews.ca/rss/ctv-news-toronto-1.822319" htmlUrl="https://toronto.ctvnews.ca/rss/ctv-news-toronto-1.822319"/>
+            <outline type="rss" text="The Register - Security" title="The Register - Security" xmlUrl="https://www.theregister.com/security/headlines.atom" htmlUrl="https://www.theregister.com/security/"/>
+            <outline type="rss" text="QNetNews.ca" title="QNetNews.ca" xmlUrl="http://www.qnetnews.ca/?feed=rss2" htmlUrl="https://www.qnetnews.ca"/>
+            <outline type="rss" text="Belleville Intelligencer" title="Belleville Intelligencer" xmlUrl="http://www.intelligencer.ca/rss.xml" htmlUrl="https://www.intelligencer.ca"/>
+            <outline type="rss" text="OMG! Linux" title="OMG! Linux" xmlUrl="https://www.omglinux.com/feed/" htmlUrl="https://www.omglinux.com/"/>
+            <outline type="rss" text="Planet Interactive Fiction" title="Planet Interactive Fiction" xmlUrl="http://wordeology.com/planet-if/atom.xml" htmlUrl="https://planet-if.com/"/>
+            <outline type="rss" text="Ars Technica - All content" title="Ars Technica - All content" xmlUrl="http://feeds.arstechnica.com/arstechnica/index/" htmlUrl="https://arstechnica.com"/>
+            <outline type="rss" text="The Register - Offbeat" title="The Register - Offbeat" xmlUrl="https://www.theregister.com/offbeat/headlines.atom" htmlUrl="https://www.theregister.com/offbeat/"/>
+            <outline type="rss" text="MobileSyrup" title="MobileSyrup" xmlUrl="http://mobilesyrup.com/feed/" htmlUrl="https://mobilesyrup.com/"/>
+            <outline type="rss" text="Gizmodo" title="Gizmodo" xmlUrl="https://gizmodo.com/rss" htmlUrl="https://gizmodo.com/"/>
+            <outline type="rss" text="OSnews" title="OSnews" xmlUrl="http://www.osnews.com/files/recent.xml" htmlUrl="https://www.osnews.com"/>
+            <outline type="rss" text="The Verge" title="The Verge" xmlUrl="http://www.theverge.com/rss/full.xml" htmlUrl="https://www.theverge.com"/>
+            <outline type="rss" text="BLABBERMOUTH.NET RSS Feed" title="BLABBERMOUTH.NET RSS Feed" xmlUrl="https://www.blabbermouth.net/feed" htmlUrl="https://blabbermouth.net/feed"/>
+            <outline type="rss" text="Learn Building Modern Go applications" title="Learn Building Modern Go applications" xmlUrl="https://threedots.tech/index.xml" htmlUrl="https://threedots.tech/"/>
+            <outline type="rss" text="CBC | Top Stories News" title="CBC | Top Stories News" xmlUrl="http://rss.cbc.ca/lineup/topstories.xml" htmlUrl="https://www.cbc.ca/news/?cmp=rss"/>
+            <outline type="rss" text="INQUINTE.CA" title="INQUINTE.CA" xmlUrl="https://inquinte.ca/rss" htmlUrl="https://inquinte.ca"/>
+        </outline>
+    </body>
+</opml>
