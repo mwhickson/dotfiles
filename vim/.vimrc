@@ -72,9 +72,9 @@ set incsearch
 set noerrorbells
 set novisualbell
 
-let g:ackprg='c:\\ripgrep\\rg.exe --vimgrep --smart-case'
-let g:ack_autoclose=1
-let g:ack_use_cword_for_empty_search=1
-
-colorscheme slate
+"let g:ackprg='c:\\ripgrep\\rg.exe --vimgrep --smart-case'
+"let g:ack_autoclose=1
+"let g:ack_use_cword_for_empty_search=1
+"
+"colorscheme slate
 

@@ -52,37 +52,37 @@ vim.g.have_nerd_font = false
 --	filetypes = { "c", "cpp" },
 --})
 
-require'lspconfig'.csharp_ls.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-	cmd = {"csharp-ls"},
-	filetypes = { "cs" },
-	init_options = { AutomaticWorkspaceInit = true }
-})
-
-require'lspconfig'.gopls.setup({
-	on_attach = on_attach,
-	capabilities = capabilities,
-	cmd = {"gopls"},
-	filetypes = { "go", "gomod", "gowork", "gotmpl" },
-})
-
-require'lspconfig'.pylsp.setup{
-	on_attach = on_attach,
-	capabilities = capabilities,
-	--settings = {
-	--	pylsp = {
-	--		plugins = {
-	--			pycodestyle = {
-	--				ignore = {'W391'},
-	--				maxLineLength = 100
-	--			}
-	--		}
-	--	}
-	--},
-	cmd = {"pylsp"},
-	filetypes = { "python" },
-}
+--require'lspconfig'.csharp_ls.setup({
+--	on_attach = on_attach,
+--	capabilities = capabilities,
+--	cmd = {"csharp-ls"},
+--	filetypes = { "cs" },
+--	init_options = { AutomaticWorkspaceInit = true }
+--})
+--
+--require'lspconfig'.gopls.setup({
+--	on_attach = on_attach,
+--	capabilities = capabilities,
+--	cmd = {"gopls"},
+--	filetypes = { "go", "gomod", "gowork", "gotmpl" },
+--})
+--
+--require'lspconfig'.pylsp.setup{
+--	on_attach = on_attach,
+--	capabilities = capabilities,
+--	--settings = {
+--	--	pylsp = {
+--	--		plugins = {
+--	--			pycodestyle = {
+--	--				ignore = {'W391'},
+--	--				maxLineLength = 100
+--	--			}
+--	--		}
+--	--	}
+--	--},
+--	cmd = {"pylsp"},
+--	filetypes = { "python" },
+--}
 
 -- additional
 
@@ -92,6 +92,5 @@ vim.cmd([[
 set notimeout
 filetype indent on
 filetype plugin on
-colorscheme blue
 ]])
 
