@@ -46,5 +46,5 @@ set incsearch
 set noerrorbells
 set novisualbell
 
-colorscheme slate
+"colorscheme slate
 

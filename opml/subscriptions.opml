@@ -1,34 +1,55 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<opml version="1.0">
-<body>
-<outline text="feeds">
-<outline text="3d6 Down The Line" xmlUrl="https://anchor.fm/s/815abb18/podcast/rss" type="rss" />
-<outline text="Adventures in Lollygagging" xmlUrl="https://feeds.transistor.fm/adventures-in-lollygagging-4b1c91f1-9282-46d3-84ab-10ac9187ea0a" type="rss" />
-<outline text="Androids &amp; Aliens" xmlUrl="https://feeds.acast.com/public/shows/642b05579bb1730011e1efbe" type="rss" />
-<outline text="Burn Everything Gaming: Fate RPG" xmlUrl="https://BurnEverythingGaming.podbean.com/feed.xml" type="rss" />
-<outline text="Case Closed! (old time radio)" xmlUrl="http://feeds.feedburner.com/caseclosed" type="rss" />
-<outline text="Classical Music Discoveries" xmlUrl="http://khedgecock.podomatic.com/rss2.xml" type="rss" />
-<outline text="Coder Radio" xmlUrl="https://coder.show/rss" type="rss" />
-<outline text="Coding Blocks" xmlUrl="https://www.codingblocks.net/podcast-feed.xml" type="rss" />
-<outline text="Decoder Ring Theatre" xmlUrl="https://decoderring.libsyn.com/rss" type="rss" />
-<outline text="Essential NPCs" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:193629322/sounds.rss" type="rss" />
-<outline text="Fandible Actual Play Podcast" xmlUrl="https://www.fandible.com/?feed=podcast" type="rss" />
-<outline text="Get in the Trunk - A Delta Green Anthology Series" xmlUrl="https://feeds.acast.com/public/shows/63c5a0fd76f6370010cd46d3" type="rss" />
-<outline text="King Falls AM" xmlUrl="https://audioboom.com/channels/4256036.rss" type="rss" />
-<outline text="Open Metalcast" xmlUrl="http://feeds.feedburner.com/OpenMetalcast" type="rss" />
-<outline text="Redemption Productions" xmlUrl="https://anchor.fm/s/6dbced10/podcast/rss" type="rss" />
-<outline text="Relic Radio Sci-Fi (old time radio)" xmlUrl="http://feeds.feedburner.com/relicradiosciencefiction" type="rss" />
-<outline text="Relic Radio Thrillers (Old Time Radio)" xmlUrl="http://feeds.feedburner.com/relicradiothrillers" type="rss" />
-<outline text="Spout Lore" xmlUrl="https://feeds.megaphone.fm/spoutlore" type="rss" />
-<outline text="Strange Tales (Old Time Radio)" xmlUrl="http://feeds.feedburner.com/relicradiostrangetales" type="rss" />
-<outline text="Sunday-Skypers" xmlUrl="https://sunday-skypers.podbean.com/feed.xml" type="rss" />
-<outline text="The Arcology Shadowrun Community Podcast" xmlUrl="http://arcologypodcast.libsyn.com/rss" type="rss" />
-<outline text="The Film Reroll" xmlUrl="http://www.filmreroll.com/?feed=podcast" type="rss" />
-<outline text="The Horror! (Old Time Radio)" xmlUrl="http://feeds.feedburner.com/horror" type="rss" />
-<outline text="The Mysterious Old Radio Listening Society" xmlUrl="http://www.ghoulishdelights.com/feed/podcast/themorls" type="rss" />
-<outline text="Tower 4" xmlUrl="https://feeds.megaphone.fm/BDA6615576404" type="rss" />
-<outline text="WasabiBurger’s Actual Plays" xmlUrl="https://feed.podbean.com/wasabiburger/feed.xml" type="rss" />
-<outline text="Voyagers of the Jump - An Original Traveller Campaign" xmlUrl="https://feeds.acast.com/public/shows/63ce99f0fcf9f40011fcacd6" type="rss" />
-</outline>
-</body>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<opml version="2.0">
+  <head>
+    <title>GNOME Podcasts Subscriptions</title>
+  </head>
+  <body>
+    <outline text="3d6 Down The Line" title="3d6 Down The Line" type="rss" xmlUrl="https://anchor.fm/s/815abb18/podcast/rss" htmlUrl="http://www.3d6downtheline.com/" />
+    <outline text="Adventures in Lollygagging" title="Adventures in Lollygagging" type="rss" xmlUrl="https://feeds.transistor.fm/adventures-in-lollygagging-4b1c91f1-9282-46d3-84ab-10ac9187ea0a" htmlUrl="https://www.youtube.com/adventuresinlollygagging" />
+    <outline text="Androids &amp; Aliens" title="Androids &amp; Aliens" type="rss" xmlUrl="https://feeds.acast.com/public/shows/642b05579bb1730011e1efbe" htmlUrl="http://glasscannonnetwork.com/" />
+    <outline text="Bards of New York" title="Bards of New York" type="rss" xmlUrl="https://anchor.fm/s/ebac13b8/podcast/rss" htmlUrl="https://bardsofnewyork.square.site/" />
+    <outline text="Burn Everything Gaming: Fate RPG" title="Burn Everything Gaming: Fate RPG" type="rss" xmlUrl="https://burneverythinggaming.podbean.com/feed.xml" htmlUrl="https://burneverythinggaming.podbean.com/" />
+    <outline text="Case Closed! (old time radio)" title="Case Closed! (old time radio)" type="rss" xmlUrl="http://feeds.feedburner.com/caseclosed" htmlUrl="https://www.relicradio.com/otr/show/caseclosed/" />
+    <outline text="Classical Music Discoveries" title="Classical Music Discoveries" type="rss" xmlUrl="http://khedgecock.podomatic.com/rss2.xml" htmlUrl="https://www.podomatic.com/podcasts/khedgecock" />
+    <outline text="Coder Radio" title="Coder Radio" type="rss" xmlUrl="https://coder.show/rss" htmlUrl="https://coder.show/" />
+    <outline text="Coding Blocks" title="Coding Blocks" type="rss" xmlUrl="https://www.codingblocks.net/podcast-feed.xml" htmlUrl="https://www.codingblocks.net/" />
+    <outline text="Cogwheel Gaming" title="Cogwheel Gaming" type="rss" xmlUrl="https://aaronbsmith.com/cogwheel/feed/podcast/" htmlUrl="https://aaronbsmith.com/cogwheel/" />
+    <outline text="Decoder Ring Theatre" title="Decoder Ring Theatre" type="rss" xmlUrl="https://decoderring.libsyn.com/rss" htmlUrl="http://www.decoderringtheatre.com/" />
+    <outline text="Essential NPCs" title="Essential NPCs" type="rss" xmlUrl="http://feeds.soundcloud.com/users/soundcloud:users:193629322/sounds.rss" htmlUrl="https://www.patreon.com/essentialnpcs" />
+    <outline text="Essential NPCs" title="Essential NPCs" type="rss" xmlUrl="https://feeds.soundcloud.com/users/soundcloud:users:193629322/sounds.rss" htmlUrl="https://www.patreon.com/essentialnpcs" />
+    <outline text="Explorers Wanted" title="Explorers Wanted" type="rss" xmlUrl="https://feeds.fireside.fm/explorerswanted/rss" htmlUrl="https://www.explorerswanted.fm/" />
+    <outline text="Fandible" title="Fandible" type="rss" xmlUrl="https://www.fandible.com/?feed=podcast" htmlUrl="https://fandible.com/" />
+    <outline text="Fandible: Longshot" title="Fandible: Longshot" type="rss" xmlUrl="https://fandible.com/category/longshot/feed/" htmlUrl="https://fandible.com/category/longshot/" />
+    <outline text="Forbidden Lands - A Horizon Zero Dawn Actual Play" title="Forbidden Lands - A Horizon Zero Dawn Actual Play" type="rss" xmlUrl="https://www.tablestory.tv/series/forbiddenlands/feed/" htmlUrl="https://www.spreaker.com/show/forbidden-lands-a-horizon-zero-dawn-ttrp" />
+    <outline text="Get in the Trunk - A Delta Green Anthology Series" title="Get in the Trunk - A Delta Green Anthology Series" type="rss" xmlUrl="https://feeds.acast.com/public/shows/63c5a0fd76f6370010cd46d3" htmlUrl="https://www.glasscannonnetwork.com/shows/get-in-the-trunk" />
+    <outline text="Happy Jacks RPG Actual Plays" title="Happy Jacks RPG Actual Plays" type="rss" xmlUrl="http://www.happyjacks.org/feed/actualplay/" htmlUrl="https://happyjacks.org/blog/" />
+    <outline text="Happy Jacks RPG One Shots" title="Happy Jacks RPG One Shots" type="rss" xmlUrl="http://www.happyjacks.org/feed/oneshots/" htmlUrl="https://happyjacks.org/blog/" />
+    <outline text="Imprinted Echoes" title="Imprinted Echoes" type="rss" xmlUrl="https://feeds.fireside.fm/imprintedechoes/rss" htmlUrl="https://www.imprintedechoes.com/" />
+    <outline text="King Falls AM" title="King Falls AM" type="rss" xmlUrl="https://audioboom.com/channels/4256036.rss" htmlUrl="https://audioboom.com/channel/kingfallsam" />
+    <outline text="Open Metalcast" title="Open Metalcast" type="rss" xmlUrl="http://feeds.feedburner.com/OpenMetalcast" htmlUrl="https://openmetalcast.com/" />
+    <outline text="RPPR Actual Play" title="RPPR Actual Play" type="rss" xmlUrl="https://actualplay.roleplayingpublicradio.com/feed/podcast/" htmlUrl="https://actualplay.roleplayingpublicradio.com/" />
+    <outline text="Redemption Productions" title="Redemption Productions" type="rss" xmlUrl="https://anchor.fm/s/6dbced10/podcast/rss" htmlUrl="https://www.redemptionpodcast.com/" />
+    <outline text="Relic Radio Sci-Fi (old time radio)" title="Relic Radio Sci-Fi (old time radio)" type="rss" xmlUrl="http://feeds.feedburner.com/relicradiosciencefiction" htmlUrl="https://www.relicradio.com/otr/show/scifi/" />
+    <outline text="Relic Radio Thrillers (Old Time Radio)" title="Relic Radio Thrillers (Old Time Radio)" type="rss" xmlUrl="http://feeds.feedburner.com/relicradiothrillers" htmlUrl="https://www.relicradio.com/otr/show/thrillers/" />
+    <outline text="Saturday Night Gaming’s Podcast" title="Saturday Night Gaming’s Podcast" type="rss" xmlUrl="https://feed.podbean.com/sngaming2017/feed.xml" htmlUrl="https://sngaming2017.podbean.com/" />
+    <outline text="Shattered Sky" title="Shattered Sky" type="rss" xmlUrl="https://feeds.megaphone.fm/OSPN7563717845" htmlUrl="https://shattered-sky.simplecast.com/" />
+    <outline text="Simulacrum - A Numenera Actual Play" title="Simulacrum - A Numenera Actual Play" type="rss" xmlUrl="https://www.tablestory.tv/series/simulacrum/feed/" htmlUrl="https://www.spreaker.com/show/simulacrum-a-numenera-actual-play" />
+    <outline text="Spout Lore" title="Spout Lore" type="rss" xmlUrl="https://feeds.megaphone.fm/spoutlore" htmlUrl="http://spoutlore.com/" />
+    <outline text="Strange Tales (Old Time Radio)" title="Strange Tales (Old Time Radio)" type="rss" xmlUrl="http://feeds.feedburner.com/relicradiostrangetales" htmlUrl="https://www.relicradio.com/otr/show/strange-tales/" />
+    <outline text="Sunday-Skypers" title="Sunday-Skypers" type="rss" xmlUrl="https://sunday-skypers.podbean.com/feed.xml" htmlUrl="http://sunday-skypers.podbean.com/" />
+    <outline text="The Amber Clave" title="The Amber Clave" type="rss" xmlUrl="https://feeds.libsyn.com/485001/rss" htmlUrl="http://www.theamberclave.com/" />
+    <outline text="The Arcology Shadowrun Community Podcast" title="The Arcology Shadowrun Community Podcast" type="rss" xmlUrl="http://arcologypodcast.libsyn.com/rss" htmlUrl="http://arcologypodcast.shadowcasters.network/" />
+    <outline text="The Drunk and The Ugly" title="The Drunk and The Ugly" type="rss" xmlUrl="http://drunkandugly.com/feed/podcast/" htmlUrl="http://drunkandugly.com/" />
+    <outline text="The Film Reroll" title="The Film Reroll" type="rss" xmlUrl="http://www.filmreroll.com/?feed=podcast" htmlUrl="https://www.filmreroll.com/" />
+    <outline text="The Horror! (Old Time Radio)" title="The Horror! (Old Time Radio)" type="rss" xmlUrl="http://feeds.feedburner.com/horror" htmlUrl="https://www.relicradio.com/otr/show/horror/" />
+    <outline text="The Mysterious Old Radio Listening Society" title="The Mysterious Old Radio Listening Society" type="rss" xmlUrl="http://www.ghoulishdelights.com/feed/podcast/themorls" htmlUrl="https://www.ghoulishdelights.com/series/themorls/" />
+    <outline text="The Redacted Files" title="The Redacted Files" type="rss" xmlUrl="https://theredactedfiles.libsyn.com/rss" htmlUrl="http://www.theredactedfiles.com/" />
+    <outline text="Tidal Blades - The Roleplaying Game" title="Tidal Blades - The Roleplaying Game" type="rss" xmlUrl="https://www.tablestory.tv/series/tidalblades/feed/" htmlUrl="https://www.spreaker.com/podcast/tidal-blades-the-roleplaying-game--6350263" />
+    <outline text="Tower 4" title="Tower 4" type="rss" xmlUrl="https://feeds.megaphone.fm/BDA6615576404" htmlUrl="https://www.spreaker.com/show/tower-4" />
+    <outline text="Twelve-Sided Stories" title="Twelve-Sided Stories" type="rss" xmlUrl="https://media.rss.com/twelve-sided-stories/feed.xml" htmlUrl="https://www.twelvesidedstories.com/" />
+    <outline text="Void: Coriolis Actual-Play" title="Void: Coriolis Actual-Play" type="rss" xmlUrl="https://www.spreaker.com/show/5804384/episodes/feed" htmlUrl="https://www.spreaker.com/show/void" />
+    <outline text="Voyagers of the Jump - An Original Traveller Campaign" title="Voyagers of the Jump - An Original Traveller Campaign" type="rss" xmlUrl="https://feeds.acast.com/public/shows/63ce99f0fcf9f40011fcacd6" htmlUrl="https://feeds.acast.com/public/shows/voyagersofthejump" />
+    <outline text="WasabiBurger’s Actual Plays" title="WasabiBurger’s Actual Plays" type="rss" xmlUrl="https://feed.podbean.com/wasabiburger/feed.xml" htmlUrl="https://wasabiburger.podbean.com/" />
+    <outline text="What&apos;s In The Rift" title="What&apos;s In The Rift" type="rss" xmlUrl="https://feeds.acast.com/public/shows/64b9e22a5aa4ce0011569ebf" htmlUrl="https://shows.acast.com/whats-in-the-rift" />
+  </body>
 </opml>
