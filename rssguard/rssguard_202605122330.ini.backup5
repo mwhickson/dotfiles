@@ -1,0 +1,119 @@
+[main]
+first_run=false
+first_run_5.1.2=false
+disable_debug_output=false
+update_on_start=true
+
+[notifications]
+1=1, , 50, 1, 0
+2=1, :/sounds/notify.wav, 50, 1, 0
+5=1, , 50, 1, 0
+4=1, , 50, 1, 0
+6=1, , 50, 1, 0
+3=0, , 50, 1, 0
+7=0, , 50, 1, 0
+8=0, , 50, 1, 0
+
+[browser]
+load_external_resources=true
+custom_external_browser=false
+external_browser_executable=
+external_browser_arguments=\"%1\"
+external_email_executable=
+external_email_arguments=
+custom_external_email=false
+
+[messages]
+enable_message_preview=true
+article_list_lazy_loading=false
+mark_unread_on_update=false
+mark_message_on_selected=0
+mark_message_on_selected_delay=3000
+relative_time_for_new_articles=-1
+article_list_padding=-1
+show_feed_icon_in_feed_column=false
+mark_read_after_opened_ext_int=false
+unread_icons_in_message_list=1
+bring_app_to_front_after_msg_opened=false
+keep_cursor_center=false
+switch_article_list_rtl=true
+clear_read_on_exit=false
+avoid_old_articles=false
+datetime_to_avoid_article=@DateTime(\0\0\0\x10\0\0\0\0\0\0%\x8d\xf5\x4\xe3\xc0J\0)
+hours_to_avoid_article=0
+limit_dont_remove_starred=true
+limit_dont_remove_unread=true
+limit_count_of_articles=0
+limit_recycle_dont_purge=false
+ignore_contents_changes=true
+multiline_article_list=false
+message_head_image_height=72
+show_enclosures_in_message=false
+fixup_future_datetimes=true
+always_display_preview=true
+use_custom_date=false
+use_custom_time=false
+custom_date_format=
+custom_time_format=
+use_custom_date_for_dates_only=false
+custom_date_format_for_dates_only=
+previewer_font_standard="Segoe UI,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1"
+list_font="Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,128"
+customize_list_font=false
+
+[feeds]
+show_tree_branches=true
+propagate_feed_list_states=true
+count_alignment=132
+update_feed_list_during_fetching=false
+only_basic_shortcuts_in_lists=false
+hide_counts_if_no_unread_labels_important=false
+hide_counts_if_no_unread=false
+keep_cursor_center=false
+auto_update_enabled=true
+fetch_only_when_not_gamemode=false
+fetch_only_when_network=false
+auto_update_only_unfocused=false
+auto_update_interval=1800
+feed_update_timeout=30000
+auto_update_fast=false
+feeds_update_on_startup=false
+feeds_update_on_startup_delay=15
+count_format=%unread-%all
+show_tooltips=true
+strikethrough_disabled_feeds=true
+list_font="Segoe UI,9,-1,5,400,0,0,0,0,0,0,0,0,0,0,128"
+customize_list_font=false
+
+[gui]
+default_sort_column_feeds=0
+default_sort_order_feeds=0
+splitter_feeds=343, 1572
+height_row_messages=-1
+height_row_feeds=-1
+enable_notifications=false
+use_toast_notifications=true
+toast_notifications_duration=15
+toast_notifications_screen=-1
+toast_notifications_width=350
+toast_notifications_margin=16
+toast_notifications_opacity=0.9
+toast_notifications_position=3
+splitter_messages_vertical=453, 452
+
+[dialog_geometries]
+FormAddAccount_size=@Size(400 400)
+FormAccountDetails_size=@Size(650 500)
+FormStandardImportExport_size=@Size(702 943)
+FormSettings_size=@Size(800 550)
+FormFeedDetails_size=@Size(631 666)
+FormCategoryDetails_size=@Size(500 270)
+FormDiscoverFeeds_size=@Size(600 500)
+
+[file_dialog_paths]
+general=C:/projects/dotfiles/rssguard
+
+[categories_expand_states]
+1-16--1=true
+1-8-1=false
+1-8-2=false
