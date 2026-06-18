@@ -1,6 +1,5 @@
 ;;
 ;; System Crafters based init.el
-;; (make sure to install counsel)
 ;;
 
 (setq inhibit-splash-screen t)
@@ -19,7 +18,6 @@
 
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
 (defalias 'yes-or-no-p 'y-or-n-p)
-
 (set-language-environment "UTF-8")
 (set-default-coding-systems 'utf-8-unix)
 
@@ -46,22 +44,6 @@
 (add-hook 'after-change-major-mode-hook (lambda() (electric-indent-mode -1)))
 
 (setq backward-delete-char-untabify-method 'hungry)
-
-(require 'package)
-
-(setq package-archives '(("melpa" . "https://melpa.org/packages/")
-			 ("org" . "https://orgmode.org/elpa/")
-			 ("elpa" . "https://elpa.gnu.org/packages/")))
-
-(package-initialize)
-(unless package-archive-contents
-  (package-refresh-contents))
-
-(unless (package-installed-p 'use-package)
-  (package-install 'use-package))
-
-(require 'use-package)
-(setq use-package-always-ensure t)
 
 (load-theme `tango-dark)
 
