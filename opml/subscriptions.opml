@@ -11,6 +11,7 @@
     <outline text="Coding Blocks" title="Coding Blocks" type="rss" xmlUrl="https://www.codingblocks.net/podcast-feed.xml" htmlUrl=""></outline>
     <outline text="Cogwheel Gaming" title="Cogwheel Gaming" type="rss" xmlUrl="https://aaronbsmith.com/cogwheel/feed/podcast/" htmlUrl=""></outline>
     <outline text="Decoder Ring Theatre" title="Decoder Ring Theatre" type="rss" xmlUrl="https://decoderring.libsyn.com/rss" htmlUrl=""></outline>
+    <outline text="ETU: Undeclared" title="ETU: Undeclared" type="rss" xmlUrl="https://feeds.castos.com/2ngpj" htmlUrl=""></outline>
     <outline text="Essential NPCs" title="Essential NPCs" type="rss" xmlUrl="https://feeds.soundcloud.com/users/soundcloud:users:193629322/sounds.rss" htmlUrl=""></outline>
     <outline text="Explorers Wanted" title="Explorers Wanted" type="rss" xmlUrl="https://feeds.fireside.fm/explorerswanted/rss" htmlUrl=""></outline>
     <outline text="Fandible" title="Fandible" type="rss" xmlUrl="https://www.fandible.com/?feed=podcast" htmlUrl=""></outline>
@@ -20,6 +21,7 @@
     <outline text="Happy Jacks RPG One Shots" title="Happy Jacks RPG One Shots" type="rss" xmlUrl="http://www.happyjacks.org/feed/oneshots/" htmlUrl=""></outline>
     <outline text="Imprinted Echoes" title="Imprinted Echoes" type="rss" xmlUrl="https://feeds.fireside.fm/imprintedechoes/rss" htmlUrl=""></outline>
     <outline text="King Falls AM" title="King Falls AM" type="rss" xmlUrl="https://audioboom.com/channels/4256036.rss" htmlUrl=""></outline>
+    <outline text="Legends of Avantris" title="Legends of Avantris" type="rss" xmlUrl="https://feed.podbean.com/legendsofavantris/feed.xml" htmlUrl=""></outline>
     <outline text="Limelight" title="Limelight" type="rss" xmlUrl="https://podcasts.files.bbci.co.uk/p09hbsqb.rss" htmlUrl=""></outline>
     <outline text="Open Metalcast" title="Open Metalcast" type="rss" xmlUrl="http://feeds.feedburner.com/OpenMetalcast" htmlUrl=""></outline>
     <outline text="Push The Roll with Ross Bryant | Call of Cthulhu Improv TTRPG Podcast" title="Push The Roll with Ross Bryant | Call of Cthulhu Improv TTRPG Podcast" type="rss" xmlUrl="https://feeds.acast.com/public/shows/687122c0374cdd852ad18e24" htmlUrl=""></outline>
@@ -28,6 +30,7 @@
     <outline text="Relic Radio Sci-Fi (old time radio)" title="Relic Radio Sci-Fi (old time radio)" type="rss" xmlUrl="http://feeds.feedburner.com/relicradiosciencefiction" htmlUrl=""></outline>
     <outline text="Relic Radio Thrillers (Old Time Radio)" title="Relic Radio Thrillers (Old Time Radio)" type="rss" xmlUrl="http://feeds.feedburner.com/relicradiothrillers" htmlUrl=""></outline>
     <outline text="Saturday Night Gaming’s Podcast" title="Saturday Night Gaming’s Podcast" type="rss" xmlUrl="https://feed.podbean.com/sngaming2017/feed.xml" htmlUrl=""></outline>
+    <outline text="Saving Throw" title="Saving Throw" type="rss" xmlUrl="https://anchor.fm/s/caa560fc/podcast/rss" htmlUrl=""></outline>
     <outline text="Shattered Sky" title="Shattered Sky" type="rss" xmlUrl="https://feeds.megaphone.fm/OSPN7563717845" htmlUrl=""></outline>
     <outline text="Simulacrum - A Numenera Actual Play" title="Simulacrum - A Numenera Actual Play" type="rss" xmlUrl="https://www.tablestory.tv/series/simulacrum/feed/" htmlUrl=""></outline>
     <outline text="Spout Lore" title="Spout Lore" type="rss" xmlUrl="https://feeds.megaphone.fm/spoutlore" htmlUrl=""></outline>
@@ -46,5 +49,6 @@
     <outline text="Twelve-Sided Stories" title="Twelve-Sided Stories" type="rss" xmlUrl="https://media.rss.com/twelve-sided-stories/feed.xml" htmlUrl=""></outline>
     <outline text="Void: Coriolis Actual-Play" title="Void: Coriolis Actual-Play" type="rss" xmlUrl="https://www.spreaker.com/show/5804384/episodes/feed" htmlUrl=""></outline>
     <outline text="What&#39;s In the Rift" title="What&#39;s In the Rift" type="rss" xmlUrl="https://feeds.acast.com/public/shows/64b9e22a5aa4ce0011569ebf" htmlUrl=""></outline>
+    <outline text="Wildcards" title="Wildcards" type="rss" xmlUrl="https://feeds.castos.com/4kvqr" htmlUrl=""></outline>
   </body>
 </opml>
